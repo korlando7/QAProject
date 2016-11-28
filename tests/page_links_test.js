@@ -124,8 +124,6 @@ module.exports = {
                             console.log(result.value);
                         })
                         .click(link)
-                        .verify.visible('div.hero > img')
-                        .verify.visible('div#contact-form-top')
                         .verify.visible('div.content_main')
                         .verify.visible('div#content-cta')
                         .verify.visible('div.footer')

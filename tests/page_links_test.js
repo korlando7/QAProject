@@ -67,6 +67,7 @@ module.exports = {
                             })
                             .moveToElement(element, 10, 10)
                             .pause(1000)
+                            //screenshot to check page and confirm dropdown link has "active" class
                             .saveScreenshot(SCREENSHOT_DIR +  element + " dropdown_link" + (i) + ".png");
                     }
                 });
@@ -84,7 +85,7 @@ module.exports = {
             .waitForElementVisible('body')
             //find links in each feature box       
             .elements('css selector', featureBoxes, function(results) {
-                //loop through
+                //loop through each element and click on them
                 for (var i=1; i<=results.value.length; i++) {
                     var link = featureBoxes + ':nth-child(' + i + ') > a';
                     browser

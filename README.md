@@ -14,7 +14,7 @@ The project is set up to run the tests using Saucelabs. Assuming you have Nightw
 
 1. Open the QAProject directory in the terminal
 2. Run all tests by typing in `$ nightwatch -e chrome,firefox,internet_explorer_10,safari,android_s4_emulator,iphone_6_simulator`
-   You can ommit any of the envrionments and type in `$ nightwatch -e chrome, firefox` for example
+   You can omit any of the envrionments and type in `$ nightwatch -e chrome, firefox` for example
 3. Tests will run on Saucelabs in your account dashboard and will show in console after completing
 
 
@@ -28,7 +28,7 @@ The project is set up to run the tests using Saucelabs. Assuming you have Nightw
 
 I attempted to do a thorough test of this site by making sure images and elements were visible when they should be, that url's directed to the correct page, and the the overall UI experiece was smooth. Some important areas covered were making sure the dropdown links were visible when hovering over the specific navbar button, making sure any hover elements became visible after moving to them, making sure the links directed to the appropriate page, making sure the form functioned properly, making sure correct css properties were active, and making sure page information was correct.
 
-Using nightwatch I was able to locate elements on the page and perform tests on them. I attempted to take more of a DRY approach by looping through elements that would have the same tests perfomed instead of hard coding every test for every element. Being able to loop through links and confirm their URL was very helpful in testing the site.
+Using nightwatch I was able to locate elements on the page and perform tests on them. I attempted to take more of a DRY approach by looping through elements that would have the same tests perfomed instead of hard coding every test for every element. Being able to loop through links and confirm their URL was very helpful in testing the site. I saved screenshots in order to be able to quickly visualize the site and make sure everything that passed looks correct (screenshots included).
 
 One of the errors I found when checking the header information was that the phone number changed often and did not correspond with the phone number in the page title. This could be a major issue if people were calling the number on a daily basis.
 

@@ -19,7 +19,7 @@ module.exports = {
       "webdriver.chrome.driver": BINPATH + "chromedriver",
     }
   },
-/*
+/* Uncomment Here
   "test_settings": {
     "default": {
       "screenshots": {
@@ -41,7 +41,8 @@ module.exports = {
     }
   }
 */
-///*
+
+//  /* Comment Here
   "test_workers" : {"enabled" : true, "workers" : "auto"},
   "test_settings" : {
     "default" : {
@@ -114,5 +115,5 @@ module.exports = {
       }
     }
   }
-//*/
+//  */
 }

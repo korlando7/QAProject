@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="5">
+
+  <testsuite name="page_links_test"
+    errors="1" failures="1" hostname="" id="" package="page_links_test" skipped="4"
+    tests="5" time="75.17" timestamp="Mon, 28 Nov 2016 00:37:10 GMT">
+  
+    <testcase name="Nav Link Test" time="75.17" assertions="2">
+
+      <failure message="Testing if element &lt;ul.main_nav&gt; is visible. Element could not be located.">    at Object.module.exports.Nav Link Test (/Users/maninthebox505/Documents/QAProject/tests/page_links_test.js:9:15)</failure>
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;ul.main_nav&quot; using: css selector
+    at command (/usr/local/lib/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/usr/local/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/usr/local/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+      </system-err>
+  
+  
+    
+    <testcase
+      name="Nav Dropdown Link Test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Feature Boxes Link Text">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Footer Nav Links Test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Offer Details Link Test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

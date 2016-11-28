@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="5">
+
+  <testsuite name="e2e"
+    errors="0" failures="1" hostname="" id="" package="e2e" skipped="0"
+    tests="5" time="16.19" timestamp="Tue, 22 Nov 2016 23:52:08 GMT">
+  
+    <testcase name="Assert Title" time="4.506" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check Header Contains DIRECTV Info" time="0.2550" assertions="4">
+
+      <failure message="Testing if element &lt;div.cta_header &gt; span&gt; contains text: &quot;1-877-336-8801&quot;.">    at Object.module.exports.Check Header Contains DIRECTV Info (/Users/maninthebox505/Documents/QAProject/tests/e2e.js:12:21)</failure>
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test Dropdown Menus" time="6.414" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check Form Validation" time="0.6910" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Test Filled Out Form" time="4.327" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
